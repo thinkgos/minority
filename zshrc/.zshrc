@@ -122,3 +122,5 @@ eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
 
 setopt no_nomatch
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
