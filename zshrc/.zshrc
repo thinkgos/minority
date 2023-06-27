@@ -77,7 +77,7 @@ fig
 z
 golang
 rust
-nvm
+# nvm
 npm
 tmux
 vagrant
