@@ -87,6 +87,7 @@ minikube
 docker
 cp
 ansible
+asdf
 zsh-syntax-highlighting
 zsh-autosuggestions
 )
@@ -122,5 +123,5 @@ eval "$(starship init zsh)"
 eval "$(atuin init zsh --disable-up-arrow)"
 
 setopt no_nomatch
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+#export PATH="$HOME/.jenv/bin:$PATH"
+#eval "$(jenv init -)"
