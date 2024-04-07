@@ -77,7 +77,6 @@ fig
 z
 golang
 rust
-# nvm
 npm
 tmux
 vagrant
@@ -87,7 +86,7 @@ minikube
 docker
 cp
 ansible
-asdf
+fnm
 zsh-syntax-highlighting
 zsh-autosuggestions
 )
@@ -125,3 +124,4 @@ eval "$(atuin init zsh --disable-up-arrow)"
 setopt no_nomatch
 #export PATH="$HOME/.jenv/bin:$PATH"
 #eval "$(jenv init -)"
+
