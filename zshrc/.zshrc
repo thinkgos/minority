@@ -77,7 +77,6 @@ fig
 z
 golang
 rust
-# nvm
 npm
 tmux
 vagrant
@@ -87,7 +86,7 @@ minikube
 docker
 cp
 ansible
-nvm
+fnm
 zsh-syntax-highlighting
 zsh-autosuggestions
 )
