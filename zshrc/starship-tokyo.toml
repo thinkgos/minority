@@ -1,6 +1,6 @@
 format = """
 [░▒▓](#a3aed2)\
-[ 🎶♪♩♫♬¶♭§∮ ](bg:#a3aed2 fg:#090c0c)\
+[ 🎶♪♩♫♬¶♭§∮♪♩♫♬🎶 ](bg:#a3aed2 fg:#090c0c)\
 [](bg:#769ff0 fg:#a3aed2)\
 $directory\
 [](fg:#769ff0 bg:#394260)\
@@ -10,7 +10,7 @@ $git_status\
 $all\
 [](fg:#212736 bg:#1d2230)\
 $time\
-[ ♪♩♫♬🎶 ](bg:#a3aed2 fg:#1d2230)\
+[ ](fg:#1d2230)\
 $line_break$character"""
 
 # Inserts a blank line between shell prompts
