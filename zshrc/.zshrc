@@ -72,9 +72,10 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+zoxide
+fzf
 git
 fig
-z
 golang
 rust
 npm
@@ -118,8 +119,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias nv=nvim
+alias tf=terraform
+
 eval "$(starship init zsh)"
 eval "$(atuin init zsh --disable-up-arrow)"
+eval "$(zoxide init zsh)"
 
 setopt no_nomatch
 #export PATH="$HOME/.jenv/bin:$PATH"
@@ -128,6 +133,3 @@ setopt no_nomatch
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
-# alias
-alias nv=nvim
-alias tf=terraform
