@@ -21,6 +21,7 @@ add_newline = true
 success_symbol = "[└> ▶](bold blue)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
 # 🤪 🚀 👉 🤔 💔 😏 😉 😝 ♥ 🕙
 error_symbol = "[└> ✖](bold red)"
+vimcmd_symbol = '[└> @v@ ▶](bold green)' # vim shape
 
 # Disable the package module, hiding it from the prompt completely
 [package]
