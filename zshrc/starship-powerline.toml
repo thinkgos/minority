@@ -1,5 +1,7 @@
 format = """
-[](#9A348E)\
+[░▒▓](#40a7ea)\
+[ 🎶♪♩♫♬¶♩§♭∮♬♪♩♫🎶 ](bg:#2cc7dc fg:#dc5be2)\
+[](bg:#9A348E fg:#2cc7dc)\
 $os\
 $username\
 [](bg:#DA627D fg:#9A348E)\
@@ -23,9 +25,9 @@ add_newline = true
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character] # The name of the module we are configuring is "character"
-success_symbol = "[😉  ▶](bold blue)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+success_symbol = "[└> ▶](bold blue)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
 # 🤪 🚀 👉 🤔 💔 😏 😉 😝 ♥ 🕙
-error_symbol = "[🤔  ✖](bold red)"
+error_symbol = "[└>  ✖](bold red)"
 vimcmd_symbol = '[└> @v@ ▶](bold green)' # vim shape
 
 [status]

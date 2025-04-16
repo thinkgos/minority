@@ -4,6 +4,9 @@ local config = wezterm.config_builder()
 config.font = wezterm.font("JetBrains Mono")
 config.font = wezterm.font_with_fallback({
 	"JetBrains Mono",
+	"Hack Nerd Font",
+	"MesloLGS NF",
+	"FiraCode Nerd Font",
 	"Noto Sans CJK SC",
 })
 -- config.color_scheme = "Batman"
