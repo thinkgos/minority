@@ -77,9 +77,9 @@ format = '[ $user ]($style)'
 
 [directory]
 style = "fg:color_fg0 bg:color_yellow"
-format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
+format = "[ $path ]($style)[$read_only]($read_only_style)"
+truncation_length = 6
+# truncation_symbol = "…/"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
@@ -153,9 +153,9 @@ format = '[[ $symbol( $environment) ](fg:#83a598 bg:color_bg3)]($style)'
 
 [time]
 disabled = false
-time_format = "%R"
+# time_format = "%R"
 style = "bg:color_bg1"
-format = '[[  $time ](fg:color_fg0 bg:color_bg1)]($style)'
+format = '[[ 🕙 $time ](fg:color_fg0 bg:color_bg1)]($style)'
 
 [line_break]
 disabled = false
