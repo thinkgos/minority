@@ -127,9 +127,6 @@ eval "$(atuin init zsh --disable-up-arrow)"
 eval "$(zoxide init zsh)"
 
 setopt no_nomatch
-#export PATH="$HOME/.jenv/bin:$PATH"
-#eval "$(jenv init -)"
-
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
