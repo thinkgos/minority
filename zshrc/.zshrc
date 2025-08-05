@@ -125,6 +125,7 @@ alias tf=terraform
 eval "$(starship init zsh)"
 eval "$(atuin init zsh --disable-up-arrow)"
 eval "$(zoxide init zsh)"
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 setopt no_nomatch
 
