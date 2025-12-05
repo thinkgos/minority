@@ -121,6 +121,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nv=nvim
 alias tf=terraform
+alias ls=eza
+alias cat='bat -p' 
 
 eval "$(starship init zsh)"
 eval "$(atuin init zsh --disable-up-arrow)"
